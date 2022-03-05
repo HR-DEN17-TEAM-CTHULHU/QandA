@@ -1,0 +1,23 @@
+{
+  "name": "questions-and-answers-sdc",
+  "version": "1.0.0",
+  "description": "this is SDC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init-db": "psql -f ./Schema.sql"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HR-DEN17-TEAM-CTHULHU/QandA.git"
+  },
+  "author": "Chase",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HR-DEN17-TEAM-CTHULHU/QandA/issues"
+  },
+  "homepage": "https://github.com/HR-DEN17-TEAM-CTHULHU/QandA#readme",
+  "dependencies": {
+    "pg": "^8.7.3"
+  }
+}

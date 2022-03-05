@@ -1,2 +1,2 @@
 # QandA
-This is where we build the Questions and Answers backend.
+This is where we build the Questions and Answers backend using PostgreSQL!
