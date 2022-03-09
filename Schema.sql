@@ -82,3 +82,15 @@ CREATE TABLE ANSWERS_PHOTOS(
 );
 
 COPY ANSWERS_PHOTOS(ID, ANSWER_ID, URL) FROM '/Users/chaseriggs/Downloads/answers_photos.csv' DELIMITER ',' CSV HEADER;
+
+-- Pick a starting value for the serial, greater than any existing value in the table
+-- SELECT MAX(id)+1 FROM mytable
+
+-- Create a sequence for the serial (tablename_columnname_seq is a good name)
+-- CREATE SEQUENCE test_id_seq MINVALUE 3 (assuming you want to start at 3)
+
+-- Alter the default of the column to use the sequence
+-- ALTER TABLE test ALTER id SET DEFAULT nextval('test_id_seq')
+
+-- Alter the sequence to be owned by the table/column;
+-- ALTER SEQUENCE test_id_seq OWNED BY test.id
