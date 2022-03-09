@@ -1,4 +1,4 @@
-const database = require('../Database');
+const database = require('../Database/Index.js');
 const util = require('util');
 
 const Query = {

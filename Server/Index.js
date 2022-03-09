@@ -2,7 +2,7 @@ const path = require('path');
 const axios = require('axios');
 const express = require('express');
 const { API_KEY, API_ROUTE } = require('./config.js');
-const { getQuestions, questionsIncreaseHelpful, answersIncreaseHelpful, questionsReport, answersReport, addQuestion, addAnswer, getAnswers } = require('./Controllers');
+const { getQuestions, questionsIncreaseHelpful, answersIncreaseHelpful, questionsReport, answersReport, addQuestion, addAnswer, getAnswers } = require('./Controllers/Index.js');
 
 const app = express();
 app.use(express.json());
