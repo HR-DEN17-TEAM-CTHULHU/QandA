@@ -1,10 +1,10 @@
 const { Pool } = require('pg')
 
 const pool = new Pool({
-  host: 'localhost',
+  host: '18.234.125.183',
   user: 'chaseriggs',
   database: 'chaseriggs',
-  password: '',
+  password: 'robertrules',
   port: 5432
   // idleTimeoutMillis: 30000,
   // connectionTimeoutMillis: 2000,

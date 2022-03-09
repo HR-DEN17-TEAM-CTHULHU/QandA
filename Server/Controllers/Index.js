@@ -106,6 +106,10 @@ const Query = {
 
   module.exports = Query;
 
+
+
+  // `SELECT ARRAY_AGG (answer_id) answers_photos`
+
   // WITH step_one AS (
   //   INSERT INTO foo(blah, wibble)
   //   VALUES($1, $2)
